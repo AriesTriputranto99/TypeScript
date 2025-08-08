@@ -18,11 +18,22 @@ For the latest stable version:
 ```bash
 npm install -D typescript
 ```
-
 For our nightly builds:
 
 ```bash
 npm install -D typescript@next
+
+## Request
+URL Permintaan: https://api.github.com/repos/AriesTriputranto/Typescript/hook
+Metode permintaan: POST
+Terima: */*
+Tipe-Konten: aplikasi/json
+Agen-Pengguna: GitHub-Hookshot/832ccca
+X-GitHub-Delivery: 962c60de-73f7-11f0-80e4-7d00079fd0f3
+X-GitHub-Event: ping
+X-GitHub-Hook-ID: 562657391
+X-GitHub-Hook-Installation-Target-ID: 1034177963
+X-GitHub-Hook-Installation-Target-Type: repositori
 ```
 
 ## Contribute
@@ -48,3 +59,4 @@ with any additional questions or comments.
 ## Roadmap
 
 For details on our planned features and future direction, please refer to our [roadmap](https://github.com/microsoft/TypeScript/wiki/Roadmap).
+
